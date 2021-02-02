@@ -1,0 +1,4 @@
+/log
+/dataset
+script/__pycache__/
+*.txt
