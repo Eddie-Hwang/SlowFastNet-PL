@@ -3,7 +3,7 @@ PyTorch Lightning implementation of ["SlowFast Networks for Video Recognition"](
 This impelmentation based on ["this repo"](https://github.com/r1ch88/SlowFastNetworks).
 
 ## Before start
-Dataset should be orgnized as：  
+Dataset should be orgnized as:  
 ```
 dataset(e.g. UCF-101)  
 │    │ train
@@ -15,6 +15,7 @@ dataset(e.g. UCF-101)
      │    │ ApplyLipstick  
      │    │ ...   
 ```
+You can use `script/dir_sorting.py` to make the dataset like above.
 
 ## Usage
 1. Train
